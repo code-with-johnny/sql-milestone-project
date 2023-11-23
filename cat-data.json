@@ -1,0 +1,42 @@
+[
+  {
+    "name": "joseph",
+    "age": 4,
+    "weight": 15,
+    "furColor": "white",
+    "favoriteFood": "salmon",
+    "wearsCoolSunglasses": true
+  },
+  {
+    "name": "angela",
+    "age": 4,
+    "weight": 12,
+    "furColor": "black & white",
+    "favoriteFood": "chicken",
+    "wearsCoolSunglasses": false
+  },
+  {
+    "name": "ralph",
+    "age": 4,
+    "weight": 22,
+    "furColor": "orange",
+    "favoriteFood": "donuts",
+    "wearsCoolSunglasses": false
+  },
+  {
+    "name": "samantha",
+    "age": 4,
+    "weight": 11,
+    "furColor": "brown",
+    "favoriteFood": "chicken",
+    "wearsCoolSunglasses": false
+  },
+  {
+    "name": "donald",
+    "age": 4,
+    "weight": 17,
+    "furColor": "orange & black",
+    "favoriteFood": "tuna",
+    "wearsCoolSunglasses": false
+  }
+]

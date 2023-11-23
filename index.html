@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph The Cat</title>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/abfda23f27.js" crossorigin="anonymous"></script>
+
+  <!-- Local stylesheets -->
+  <link rel="stylesheet" href="index.css" type="text/css">
+
+  <!-- External scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"
+    integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <header id="top" class="header">
+    <div class="header__content-wrapper">
+      <h1>Joseph The Cat</h1>
+      <i class="fa-solid fa-bars header__hamburger-icon"></i>
+      <i class="fa-solid fa-xmark header__close-icon"></i>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__content-wrapper--mobile">
+      <nav class="header__nav--mobile">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="cta">
+      <div class="cta__content-wrapper">
+        <div class="cta__copywrite-and-form">
+          <h2>Why I'm awesome</h2>
+          <p>I'm a cat, I'm cute, I'm fluffy, and I wear cool sunglasses.</p>
+          <div>
+            <p>Join my free newsletter to get weekly tips & tricks on coercing your human to give you treats. No spam,
+              ever.</p>
+            <form id="subscribe-form">
+              <input type="email" name="email" placeholder="Email Address" required>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <img class="cta__image" src="./assets/img/joseph-the-cat.webp" alt="Joseph The Cat">
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="section-header">
+        <h2>My Story</h2>
+      </div>
+      <div class="about__content">
+        <p>
+          I'm Joseph, the runt of my litter, born in a small, peaceful town. I was small but had style – I wore cool
+          sunglasses on my fluffy white face.
+        </p>
+        <p>
+          People loved watching me strut down the cobblestone streets with my shades on. I explored the town, made
+          friends, and taught everyone that size doesn't matter; it's your spirit that counts.
+        </p>
+        <p>
+          One summer, I entered a talent competition at the town fair. In the spotlight, I danced gracefully, my
+          sunglasses never slipping. The crowd cheered, and I became a local legend, proving that being small and unique
+          can be a powerful thing.
+        </p>
+        <div class="about__table-wrapper">
+          <table id="cat-comparison" class="about__table">
+            <caption class="about__table-caption">Me vs. my siblings</caption>
+            <thead>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="section-header">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact__content">
+        <p>
+          If you want to contact me, fill out the form below. Please keep in mind I only respond to catnip offers.
+        </p>
+        <form id="contact-form" class="contact__form">
+          <input name="name" type="text" placeholder="Name" required>
+          <input name="email" type="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <a href="#top" id="back-to-top">
+      <div class="back-to-top">
+        Back to top
+      </div>
+    </a>
+  </main>
+  <footer class="footer">
+    © Copyright - All rights reserved.
+  </footer>
+
+  <!-- Local scripts -->
+  <script src="scripts/hamburger-menu.js"></script>
+  <script type="module" src="scripts/fetch-cat-data.js"></script>
+  <script type="module" src="scripts/form-handlers.js"></script>
+</body>
+
+</html>
